@@ -9,6 +9,7 @@ jobs:
       matrix:
         include:    
           - version: "android-4.14-stable"
+          - version: "android-4.9-q"
 
     uses: ./.github/workflows/ngki-kernel.yaml
     with:
